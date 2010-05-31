@@ -1,0 +1,13 @@
+Source: rbtools
+Section: vcs
+Priority: extra
+Maintainer: David Cournapeau <cournape@gmail.com>
+Build-Depends: debhelper (>= 7), python-setuptools
+Standards-Version: 3.8.4
+Homepage: http://www.reviewboard.org
+
+Package: rbtools
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-simplejson
+Description: Review board tools
+ Set of tools for interacting with reviewboard from the command line.
